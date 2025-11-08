@@ -36,7 +36,7 @@ Padding improves spacing and readability inside cells:
 ```css
 th, td {
   border: 1px solid #000;
-  padding: 0.5em;
+  padding: 0.5rem;
 }
 ```
 
@@ -45,14 +45,14 @@ th, td {
 Captions describe the table content and can be styled like any block element:
 
 ```html
-<caption>Anagrafica degli iscritti alla scuola Labforweb</caption>
+<caption>Register of students enrolled at Labforweb school</caption>
 ```
 
 ```css
 caption {
   font-weight: bold;
   text-align: left;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.5rem;
 }
 ```
 
@@ -173,6 +173,7 @@ img {
   height: auto;
 }
 ```
+**Note** Unlike a **fluid layout**, which scales container widths but may leave media elements fixed, an **elastic layout** ensures that both containers and all internal media, like images and videos, scale proportionally to the viewport. 
 
 ### Hybrid Layouts ###
 
@@ -198,6 +199,10 @@ section {
 ### Box Shadow ###
 
 Adds visual depth to elements.
+- 1st value (5px): horizontal offset (how far the shadow moves to the right)
+- 2nd value (5px): vertical offset (how far the shadow moves down)
+- 3rd value (10px): blur radius (how soft or blurred the shadow appears)
+- 4th value (rgba color): shadow colour and transparency
 
 ```css
 box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
@@ -210,7 +215,10 @@ Adds emphasis or stylistic effects to text.
 ```css
 text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 ```
-
+- 1st value (2px): horizontal offset (shadow shift to the right)
+- 2nd value (2px): vertical offset (shadow shift down)
+- 3rd value (4px): blur radius (softness of the shadow)
+- 4th value (rgba color): shadow colour and transparency
 ---
 
 ## 7. Printing Styles ##
@@ -240,7 +248,7 @@ Printed pages benefit from serif fonts for readability:
 ```css
 body {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 ```
 

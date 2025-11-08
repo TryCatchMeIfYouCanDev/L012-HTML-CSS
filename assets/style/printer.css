@@ -1,0 +1,30 @@
+img, nav {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+/*
+header img {
+    display: block;
+}
+    */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+article, aside#leftA, aside#rightA {
+    width: 100%;
+}
+
+article {
+    margin: 0rem;
+    order: 3;
+}
+
+aside#leftA {
+    order: 4;
+}
