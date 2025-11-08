@@ -1,18 +1,5 @@
 # LESSON TWELVE - HTML & CSS tables, flex and media query #
 
-## Table of Contents
-1. [Structure and Style Separation](#structure-and-style-separation)
-2. [Styling Tables and Layout](#styling-tables-and-layout)
-3. [Fonts and Typography](#fonts-and-typography)
-4. [Flexbox Layout](#flexbox-layout)
-5. [Responsive Design and Media Queries](#responsive-design-and-media-queries)
-6. [Elastic and Hybrid Layouts](#elastic-and-hybrid-layouts)
-7. [Box and Text Shadows](#box-and-text-shadows)
-8. [Printing Styles](#printing-styles)
-9. [Useful Links](#useful-links)
-
----
-
 ## 1. Structure and Style Separation ##
 
 When using many CSS classes excessively, HTML tends to mix structure and style, which makes the code harder to maintain. The cleaner approach is to use fewer, more meaningful classes. This keeps the HTML document readable and allows style designers and content developers to work independently.
