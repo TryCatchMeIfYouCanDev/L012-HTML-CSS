@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="Marco Fuchs" />
+		<meta name="description" content="Practical CSS3 guide with exercises: Flexbox, CSS selectors, the navbar and menu bar. Learn how to muster flexbox properties, pseudo-classes and how to build a pure HTML&hyphen;CSS first level menu bar." />
+		<meta name="keywords" content="CSS3, Box Model, Flexbox, flex container, flex items, CSS selectors, HTML&hyphen;CSS menu bar, front-end development" />
+		<link rel="icon" href="assets/medias/icons/favicon.ico" type="images/x-icon">
+		<title>3 Levels menu bar</title>
+		<link rel="stylesheet" href="assets/style/template-flex.css" type="text/css" media="all">
+	</head>
+
+	<body>
+
+		<header>
+			<hgroup>
+				<div>
+					 <img class="show" src="assets/medias/img/logo.png" alt="Labforweb&apos;s Logo" title="Labforweb&apos;s Logo">
+				</div>
+				<h2>I&apos;m a sub Header</h2>
+				<h2>I&apos;m a brother of the sub Header</h2>
+			</hgroup>
+		</header>
+
+		<nav>
+            <ul>
+                <li>
+                    <a href="https://www.labforweb.it/nerd-academy" title="Nerd Accademy - Open in a new Tab" target="_blank" rel="tag" tabindex="1" accesskey="s">The School</a>
+                </li>
+                <li>
+                    <a href="#" title="Courses" rel="tag" tabindex="2" accesskey="o">Our Courses</a>
+					<ul>
+						<li><a href="https://www.labforweb.it/corsi/corso-front-end-developer" title="Front End Developer Course" target="_blank">Front End</a></li>
+						<li><a href="#" title="Back End Developer Course">Back End</a>
+							<ul>
+								<li><a href="https://www.labforweb.it/corsi/corso-back-end-developer" title="Morning Class" target="_blank">Morning</a></li>
+								<li><a href="https://www.labforweb.it/corsi/corso-back-end-developer" title="Afternoon Class" target="_blank">Afternoon</a></li>
+								<li><a href="https://www.labforweb.it/corsi/corso-back-end-developer" title="Evening Class" target="_blank">Evening</a></li>
+							</ul>
+						</li>
+						<li><a href="https://www.labforweb.it/corsi/corso-full-stack-developer"  title="Full Stack Developer Course" target="_blank">Full Stack</a></li>
+					</ul>
+                </li>
+                <li>
+                    <a href="https://www.labforweb.it/corsi-per-aziende" title="Courses for Enterprises" target="_blank" rel="tag" tabindex="3" accesskey="e">For Enterprises</a>
+                </li>
+                <li>
+                    <a href="https://www.labforweb.it/labforjob" title="Work in the Web Industry" target="_blank" rel="tag" tabindex="4" accesskey="w">Work in the Web Industry</a>
+                </li>
+                <li>
+                    <a href="https://www.labforweb.it/contatti" title="Our main Contacts" target="_blank" rel="tag" tabindex="5" accesskey="c">Contacts</a>
+                </li>
+                <li>
+                    <a href="#" title="Participate at the Open Days" target="_self" rel="tag" tabindex="6" accesskey="j" translate="no">Open Day</a>
+					<ul>
+						<li><a href="https://web.archive.org/web/20221208115232/https://www.labfortraining.it/open-day">2023</a></li>
+						<li><a href="#" target="_self">2024</a>
+							<ul>
+								<li><a href="https://web.archive.org/web/20240421010527mp_/https://www.labfortraining.it/open-day-labfortraining" target="_blank">April</a></li>
+								<li><a href="https://web.archive.org/web/20240421010527/https://www.labfortraining.it/open-day-labfortraining" target="_blank">May</a></li>								
+							</ul>
+						</li>
+						<li><a href="https://www.labforweb.it/open-day" target="_blank">2025</a></li>
+					</ul>
+                </li>
+            </ul>
+        </nav>
+		<main>
+			<aside id="leftA">
+				<h2>I&apos;m the Left Aside Column</h2>
+			</aside>
+
+		
+			<article>
+				<h2>Main Article</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, quisquam vero fuga amet laudantium qui, necessitatibus, id cupiditate impedit ullam neque error totam aut maiores reiciendis officiis tenetur cum modi.
+				</p>
+				<hr>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, quisquam vero fuga amet laudantium qui, necessitatibus, id cupiditate impedit ullam neque error totam aut maiores reiciendis officiis tenetur cum modi.
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, quisquam vero fuga amet laudantium qui, necessitatibus, id cupiditate impedit ullam neque error totam aut maiores reiciendis officiis tenetur cum modi.
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, quisquam vero fuga amet laudantium qui, necessitatibus, id cupiditate impedit ullam neque error totam aut maiores reiciendis officiis tenetur cum modi.
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, quisquam vero fuga amet laudantium qui, necessitatibus, id cupiditate impedit ullam neque error totam aut maiores reiciendis officiis tenetur cum modi.
+				</p>
+				<p>
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit possimus nobis perferendis inventore cupiditate tempore, in labore quibusdam illum neque aperiam, magni dolores accusantium eius libero, accusamus necessitatibus? Dolores, consectetur.
+				Reprehenderit optio, maxime exercitationem error nulla veritatis harum, labore delectus quibusdam iure accusantium repudiandae quas cupiditate blanditiis tempore? Animi delectus tempore sunt autem hic voluptatem iure, fugiat cumque. Esse, recusandae!
+				Enim dignissimos cumque eligendi commodi nisi magni minima totam maiores iste mollitia! Modi esse vitae accusamus in fugit, iste vero dolor vel quidem, unde, delectus praesentium aliquid? Voluptas, maxime esse!
+				Nam, labore quam nemo autem architecto sint, est mollitia hic saepe eaque nobis? Rem quaerat similique, beatae sequi magni esse quasi asperiores cumque alias quia qui sunt eum doloribus illum?
+				Exercitationem officia deserunt beatae facere ab fugit ducimus alias optio earum soluta consequatur reprehenderit in, sapiente quidem. Repellendus iusto perspiciatis amet, repellat voluptates deleniti dicta soluta saepe id. Autem, ad.
+				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, reprehenderit? Repudiandae consectetur illo sed maiores minima qui deserunt ducimus vero odit ut consequuntur et, esse reiciendis voluptatem accusamus. Optio, deleniti!
+				Quae, praesentium. Voluptatibus in autem odit consequatur obcaecati quo? Unde quos, voluptatibus quam laborum soluta nihil fugit repellendus velit accusamus nisi, cupiditate excepturi nesciunt similique expedita dolores accusantium! Sint, distinctio.
+				At sed iure, iusto, soluta porro eligendi quos nobis laudantium aliquid voluptatibus quas, numquam commodi incidunt atque voluptatum ex eius ratione corrupti. Rem fugit repellat suscipit eaque doloremque architecto ut.
+				</p>
+			</article>
+			
+			<aside id="rightA">
+				<h2>I&apos;m the Right Aside Column</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, modi. Modi vero debitis, optio voluptas sit earum corporis, adipisci, exercitationem quisquam voluptatibus velit repellendus consequatur quasi quibusdam eaque! Reiciendis, eveniet?</p>
+				<img src="assets/medias/img/elegant-woman-walking-up-stone-steps.jpg" alt="Elegant Woman walking up stone steps" title="Elegant Woman">
+				<p>
+							Images sourced from 
+							<a href="https://freerangestock.com/" title="Go to Freerangestock.com." target="_blank" rel="noopener noreferrer nofollow">freerangestock.com</a>.                
+						</p>
+			</aside>
+		</main>	
+		<footer>
+			<p>
+				<address>
+					Copyright &copy; 2025 - <strong>Albion Media Ltd</strong> - Registered Office: 10 Queen Street, London, EC4N 1SQ, UK - Tel. <a href="tel:+442079460123">+44 20 7946 0123</a><br>
+					Share capital £5,000,000 fully paid. Company Registration No: 12345678. VAT No: GB987654321<br>
+					Email <a href="mailto:info@albionmedia.co.uk">info@albionmedia.co.uk</a>.
+				</address>
+			</p>
+		</footer>
+		
+
+	</body>
+</html>

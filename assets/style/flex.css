@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: antiquewhite;
+    margin-top: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    flex-wrap: wrap;
+}
+
+.box {
+    flex: 300px;
+    margin: 0.6rem;
+    padding: 1.4rem 0.7rem;
+    background-color: #4caf50;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.box img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+h3, .centered {
+    text-align: center;
+    font-weight: 700;
+}
+
+/*
+The flex: 1 property is a shortcut for setting the flex-grow, flex-shrink, and flex-basis properties of a flexible element. Let's see what these properties mean:
+
+flex-grow: This property defines an element's ability to grow relative to other flexible elements within the same container. A value of 1 means that the element can grow to occupy the available space proportionally to the other elements with flex-grow set.
+
+flex-shrink: This property defines an element's ability to shrink relative to other flexible elements within the same container. A value of 1 means that the element can shrink proportionally to other elements with flex-shrink set.
+
+flex-basis: This property defines the base size of the element before the remaining space is distributed. A value of 0 means that the base size is zero, so the element will fit completely based on the flex-grow and flex-shrink properties.
+
+When we write flex: 1, we are actually setting these three properties as follows:
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 0;
+
+In practice, flex: 1 means that the element:
+Can grow to occupy the available space proportionally to the other flexible elements.
+Can shrink proportionally to the other flexible elements.
+Has a base size of zero, so it adapts completely based on the growth and reduction properties.
+
+*/

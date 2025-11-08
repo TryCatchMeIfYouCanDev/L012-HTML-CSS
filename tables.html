@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Marco Fuchs" />
+        <meta name="description" content="Practical CSS3 guide with exercises: All you need to know about HTML & CSS tables. Standard and advanced tables using semantic tags HTML5 and pseudo-classes CSS3 for coloring. Tables will no longer hold any secrets for you!"/>
+        <meta name="keywords" content="HTML tables. CSS3 tables&apos; properties, semantic tags, caption, thead, tbody, tfoot, rowspan & columnspan, HTML valigne vs CSS vertical-align and CSS3 pseudo-classes, front-end development" />
+        <link rel="icon" href="assets/medias/icons/favicon.ico" type="images/x-icon">		
+        <title>Tables</title>
+        <link rel="stylesheet" href="assets/style/tables.css" type="text/css" media="all">
+    </head>
+    <body>
+        <h1>Data Table</h1>
+        
+        <table> <!-- <table border="2" width="200px"> // Legacy HTML proprieties. Do not use it. -->
+            <caption>
+                Register of students enrolled at Labforweb Academy
+            </caption>
+            <thead>
+                <tr>
+                    <!-- <th valigne="top">First Name</th> --> <!--Deprecated HTML 4.01-->
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>City</th>
+                    <th>Postal Code</th>
+                    <th>State</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Selected Course</th>
+                    <th>Logo</th> <!--Add an extra column-->
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Emily</td>
+                    <td>Johnson</td>
+                    <td>London</td>
+                    <td>SW1A 1AA</td>
+                    <td>Greater London</td>
+                    <td>emily.johnson@example.com</td>
+                    <td>07123456789</td>
+                    <td>Front End</td>
+                    <td rowspan="10">LOGO</td> <!--Extend the content for 10 rows-->
+                </tr>
+                <tr>
+                    <td>Olivia</td>
+                    <td>Brown</td>
+                    <td>Camden</td>
+                    <td>NW1 8AJ</td>
+                    <td>Greater London</td>
+                    <td>olivia.brown@example.com</td>
+                    <td>07234567890</td>
+                    <td>Back End (Java)</td>
+                </tr>
+                <tr>
+                    <td>Sophia</td>
+                    <td>Taylor</td>
+                    <td>Islington</td>
+                    <td>N1 2PL</td>
+                    <td>Greater London</td>
+                    <td>sophia.taylor@example.com</td>
+                    <td>07345678901</td>
+                    <td>Ethical Hacking</td>
+                </tr>
+                <tr>
+                    <td>Isabella</td>
+                    <td>Davies</td>
+                    <td>Hackney</td>
+                    <td>E8 3PH</td>
+                    <td>Greater London</td>
+                    <td>isabella.davies@example.com</td>
+                    <td>07456789012</td>
+                    <td>Data Analyst</td>
+                </tr>
+                <tr>
+                    <td>Ava</td>
+                    <td>Wilson</td>
+                    <td>Greenwich</td>
+                    <td>SE10 9NN</td>
+                    <td>Greater London</td>
+                    <td>ava.wilson@example.com</td>
+                    <td>07567890123</td>
+                    <td>Full Stack</td>
+                </tr>
+                <tr>
+                    <td>Charlotte</td>
+                    <td>Evans</td>
+                    <td>Richmond</td>
+                    <td>TW9 1TP</td>
+                    <td>Greater London</td>
+                    <td>charlotte.evans@example.com</td>
+                    <td>07678901234</td>
+                    <td>Back End (PHP)</td>
+                </tr>
+                <tr>
+                    <td>Amelia</td>
+                    <td>Thomas</td>
+                    <td>Brixton</td>
+                    <td>SW9 8QT</td>
+                    <td>Greater London</td>
+                    <td>amelia.thomas@example.com</td>
+                    <td>07789012345</td>
+                    <td>Web Design</td>
+                </tr>
+                <tr>
+                    <td>Mia</td>
+                    <td>White</td>
+                    <td>Shoreditch</td>
+                    <td>E2 7DP</td>
+                    <td>Greater London</td>
+                    <td>mia.white@example.com</td>
+                    <td>07890123456</td>
+                    <td>Linux System Admin</td>
+                </tr>
+                <tr>
+                    <td>Ella</td>
+                    <td>Clark</td>
+                    <td>Wembley</td>
+                    <td>HA9 0WS</td>
+                    <td>Greater London</td>
+                    <td>ella.clark@example.com</td>
+                    <td>07901234567</td>
+                    <td>Cybersecurity Fundamentals</td>
+                </tr>
+                <tr>
+                    <td>Larissa</td>
+                    <td>Harris</td>
+                    <td>Kingston</td>
+                    <td>KT1 1UJ</td>
+                    <td>Greater London</td>
+                    <td>larissa.harris@example.com</td>
+                    <td>07012345678</td>
+                    <td>Back End (C#)</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="8">
+                        Number of registered people 
+                    </td>
+                    <td>
+                        10
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>
